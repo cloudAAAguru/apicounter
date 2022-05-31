@@ -1,9 +1,8 @@
 # Welcome to API Counter CDK TypeScript project
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CdkTypescriptStack`)
-which contains an AWS API Gateway, Lambda funcation and a L3 counter using Lambda and DynamoDB table.  
+This CDK app with an instance of a stack that contains an AWS API Gateway, Lambda function and a L3 counter using Lambda and DynamoDB table.  
 
-rest API -> AWS API Gateway -> Lambda Function -> Counter Construct -> DynamodDB Table Viewer
+rest API -> AWS API Gateway -> Lambda Function -> Counter Construct (Lambda, DynamoDB) -> DynamodDB Table Viewer
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
